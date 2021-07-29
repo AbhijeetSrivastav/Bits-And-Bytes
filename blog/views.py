@@ -33,4 +33,4 @@ def home(request):
 
 def about(request):
     # second view About Page
-    return render(request, 'blog/about.html')
+    return render(request, 'blog/about.html', {'title': ' About'})
